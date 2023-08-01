@@ -37,7 +37,7 @@ datasets:
   #   - src/tex/stylesheet.tex
 dependencies:
     src/scripts/fig.py:
-        - src/data/sim/
+        - src/data/simulation_1.npy
 
 # Name of the `.tex` manuscript and corresponding `.pdf` article
 ms_name: ms

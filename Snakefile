@@ -1,6 +1,6 @@
 rule simulation:
     output:
-        directory("src/data/sim/")
+        "src/data/simulation_1.npy"
     cache:
         True
     script:
@@ -8,7 +8,7 @@ rule simulation:
 
 rule figure:
     input:
-        "src/data/sim/"
+        "src/data/simulation_1.npy"
     output:
         "src/figures/figure.pdf"
     script:
