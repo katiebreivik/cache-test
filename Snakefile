@@ -1,4 +1,4 @@
-rule simdat:
+rule simulation:
     output:
         directory("src/data/sim/")
     cache:
