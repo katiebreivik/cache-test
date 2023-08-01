@@ -30,11 +30,14 @@ datasets:
   #     TOI640b.json: src/data/TOI640b.json
 
 # Custom file dependencies
-dependencies:
+#dependencies:
   # src/scripts/my_script.py:
   #   - src/data/dataset_for_my_script.dat
   # src/tex/ms.tex:
   #   - src/tex/stylesheet.tex
+dependencies:
+    src/scripts/fig.py:
+        - src/data/sim/
 
 # Name of the `.tex` manuscript and corresponding `.pdf` article
 ms_name: ms
